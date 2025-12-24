@@ -52,7 +52,7 @@ const Navbar = () => {
     >
       <div className="container d-flex align-items-center">
         <h1 className="logo me-auto primary">
-          <Link to="/home">
+          <Link to="/">
             <img src="logo-white.png" alt="" width={230} />
           </Link>
         </h1>
@@ -60,7 +60,7 @@ const Navbar = () => {
         <nav id="navbar" className="navbar order-last order-lg-0">
           <ul>
             <li onClick={ToggleButton}>
-              <Link className="nav-link scrollto" to="/home">
+              <Link className="nav-link scrollto" to="/">
                 Home
               </Link>
             </li>
