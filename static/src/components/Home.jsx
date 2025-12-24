@@ -85,51 +85,63 @@ const Home = () => {
           </p>
 
           {/* Event Details */}
-          <div>
-            <div
-              className={`m-6 text-white text-4xl md:text-6xl font-bold text-center transition-opacity duration-100`}
-              style={{
-                textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
-              }}
-              data-aos="zoom-in" data-aos-delay="200"
-            >
-              Rise <span className="text-[#e62b1e]">Through</span> Resonance
-            </div>
-            <p
-              className="text-lg md:text-xl mb-4"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              Join us on <span className="font-bold text-[#e62b1e]">March 5, 2025</span>{' '}
-              for an electrifying day of inspiration, innovation, and connection.
-            </p>
-            <p
-              className="text-lg md:text-xl mb-4"
-              data-aos="fade-up"
-              data-aos-delay="150"
-            >
-              Location:{' '}
-              <a
-                href="https://maps.app.goo.gl/1uiwVFwZA8Gir8RH8"
-                className="font-bold text-[#e62b1e] hover:underline"
-              >
-                Gurudakshina Auditorium, Nashik
-              </a>
-            </p>
-            <p
-              className="text-lg md:text-xl mb-4"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              Doors Open: <span className="font-bold text-[#e62b1e]">8:00 AM</span>
-            </p>
-            
-          </div>
+          <div className="text-center">
+  {/* Event Theme Title */}
+  <div
+    className="m-6 text-white text-4xl md:text-6xl font-bold transition-opacity duration-100"
+    style={{
+      textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
+    }}
+    data-aos="zoom-in"
+    data-aos-delay="200"
+  >
+    Rise <span className="text-[#e62b1e]">Through</span> Resonance
+  </div>
+
+  {/* Date Section - Replaces the Timer */}
+  <div 
+  className="mb-10 mt-8" 
+  data-aos="fade-up" 
+  data-aos-delay="300"
+>
+  <div className="text-3xl md:text-5xl font-light tracking-[0.2em] text-white uppercase">
+    <span className="font-bold text-[#e62b1e]">05</span> March 2025
+  </div>
+  {/* Decorative red line below the date */}
+  <div className="h-1 w-20 bg-[#e62b1e] mx-auto mt-4"></div>
+</div>
+
+  {/* Description */}
+  <p
+    className="text-lg md:text-xl mb-4 text-gray-200"
+    data-aos="fade-up"
+    data-aos-delay="400"
+  >
+    Join us for an electrifying day of inspiration, innovation, and connection.
+  </p>
+
+  {/* Location */}
+  <p
+    className="text-lg md:text-xl mb-4"
+    data-aos="fade-up"
+    data-aos-delay="500"
+  >
+    Location:{' '}
+    <a
+      href="https://maps.google.com/?q=Gurudakshina+Auditorium+Nashik"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="font-bold text-[#e62b1e] hover:underline"
+    >
+      Gurudakshina Auditorium, Nashik
+    </a>
+  </p>
+</div>
 
           {/* Countdown Timer */}
-          <div data-aos="fade-up" data-aos-delay="400">
+          {/* <div data-aos="fade-up" data-aos-delay="400">
             <CountDown deadline="2025-03-05T08:00:00Z" />
-          </div>
+          </div> */}
 
           {/* Event Description */}
           <div className="mt-8" data-aos="fade-up" data-aos-delay="400">
@@ -148,9 +160,9 @@ const Home = () => {
           </div>
 
           {/* Call to Action */}
-          <div className="mt-8">
+          {/* <div className="mt-8">
             <ButtonToStart />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
