@@ -52,7 +52,7 @@ const Navbar = () => {
     >
       <div className="container d-flex align-items-center">
         <h1 className="logo me-auto primary">
-          <Link to="./">
+          <Link to="/home">
             <img src="logo-white.png" alt="" width={230} />
           </Link>
         </h1>
@@ -60,7 +60,7 @@ const Navbar = () => {
         <nav id="navbar" className="navbar order-last order-lg-0">
           <ul>
             <li onClick={ToggleButton}>
-              <Link className="nav-link scrollto" to="./">
+              <Link className="nav-link scrollto" to="/home">
                 Home
               </Link>
             </li>
@@ -70,7 +70,7 @@ const Navbar = () => {
               </a>
               <ul>
                 <li onClick={ToggleButton}>
-                  <a href="/#about">
+                  <a href="/home#about">
                     <span>About</span>
                   </a>
                 </li>
@@ -104,12 +104,12 @@ const Navbar = () => {
               </ul>
             </li>
             <li onClick={ToggleButton}>
-              <a href="./#homespeakers">
+              <a href="/home#homespeakers">
                 <span>Speakers</span>
               </a>
             </li>
             <li onClick={ToggleButton}>
-              <a href="./#homesponsors">
+              <a href="/home#homesponsors">
                 <span>Sponsors</span>
               </a>
             </li>
@@ -124,7 +124,7 @@ const Navbar = () => {
               </a>
             </li>
             <li onClick={ToggleButton}>
-              <a href="#contact">Contact Us</a>
+              <a href="/home#contact">Contact Us</a>
             </li>
           </ul>
           <i

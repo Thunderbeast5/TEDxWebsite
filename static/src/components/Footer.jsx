@@ -28,10 +28,10 @@ const Footer = () => {
       {/* Footer links */}
       <div className="row mb-3">
         <ul className="d-flex justify-content-center footer-links flex-row flex-wrap" style={{ listStyleType: 'none', padding: 0 }}>
-          <li><Link to="/">Home</Link></li>
-          <li><a href="#homespeakers">Speakers</a></li>
+          <li><Link to="/home">Home</Link></li>
+          <li><a href="/home#homespeakers">Speakers</a></li>
          
-          <li><a href="#about">About</a></li>
+          <li><a href="/home#about">About</a></li>
         </ul>
       </div>
 
