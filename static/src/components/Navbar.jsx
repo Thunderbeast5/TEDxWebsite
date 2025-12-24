@@ -113,7 +113,7 @@ const Navbar = () => {
                 <span>Sponsors</span>
               </a>
             </li>
-            <li onClick={ToggleButton}>
+            {/* <li onClick={ToggleButton}>
               <a
                 href="https://konfhub.com/tedxkkwieer"
                 target="_blank"
@@ -122,7 +122,7 @@ const Navbar = () => {
               >
                 Tickets
               </a>
-            </li>
+            </li> */}
             <li onClick={ToggleButton}>
               <a href="/home#contact">Contact Us</a>
             </li>

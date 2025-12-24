@@ -134,11 +134,11 @@ const Homie = () => {
       </div>
 
       {/* Buy Ticket Button for Desktop & Mobile */}
-      <a
+      {/* <a
         href="https://konfhub.com/tedxkkwieer"
         className="absolute bottom-10 left-1/2 transform -translate-x-1/2 "
       >        <ButtonToStart />
-      </a>
+      </a> */}
     </div>
   );
 };
