@@ -15,7 +15,7 @@ const ComingSoon = () => {
             alt="TEDx kkwieeer logo" 
             className="h-32 sm:h-44 w-auto object-contain" 
           />
-          <span className="text-[35px] sm:text-[95px] font-light tracking-tighter text-white leading-none -ml-2 sm:-ml-4">
+          <span className="text-[45px] sm:text-[105px] font-light tracking-tighter text-white leading-none -ml-2 sm:-ml-4">
             2.0
           </span>
         </div>
